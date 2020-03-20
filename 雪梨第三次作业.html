@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>雪梨第三次作业换肤</title>
+    </head>
+    <style>
+        fieldset{
+            border: gray 3px solid;
+            width: 1000px;
+            height: 250px;
+            position: absolute;
+            left: 250px;
+            top: 200px;
+        }
+        
+        legend{
+            color: red;
+            font-size: 50px;
+        }
+        .div2{
+            border: gray 1px solid;
+            height: 50px;
+        }
+        li{
+            display: block;
+            position: absolute;
+           width: 25px;
+           height: 25px;
+           list-style-type: none;
+        }
+        .skin_0{
+            top: 85px;
+            background-color: gray;
+            left: 15px;
+        }
+        .skin_1{
+            background-color: violet;
+            left: 60px;
+            top: 85px;
+        }
+        .skin_2{
+            background-color: pink;
+            left: 105px;
+            top: 85px;
+        }
+        .skin_3{
+            background-color: skyblue;
+            left: 150px;
+            top: 85px;
+        }
+        .skin_4{
+            background-color: wheat;
+            left: 195px;
+            top: 85px;
+        }
+        .skin_5{
+            background-color: yellowgreen;
+            left: 240px;
+            top: 85px;
+        }
+        #div1{
+            width: 900px;
+            height: 90px;
+            position: absolute;
+            top: 150px;
+            left: 70px;
+            font-size: 25px;
+            background-color:gray;
+        }
+    </style>
+<body>
+    <fieldset>
+        <legend>网页换肤</legend>
+        <div class="div2">
+            <ul id="skin">
+                <li class="skin_0" id="selected" title="灰色" ></li>
+                <li class="skin_1" title="紫色"></li>
+                <li class="skin_2" title="粉色"></li>
+                <li class="skin_3" title="蓝色"></li>
+                <li class="skin_4" title="黄色"></li>
+                <li class="skin_5" title="绿色"></li>
+            </ul>
+        </div>
+        <div id="div1" class="skin_0">
+            LocalStorage将数据保存在客户端本地的硬件设备中，即使浏览器被关闭了，该数据扔然存在，下次打开浏览器访问该网站时仍然可以继续使用。
+        </div>
+    </fieldset>
+</body>
+<script>
+    function setStorage(){
+        window.localStorage.setItem(background-color,arr);
+    }
+    function getStorage(arr){
+        var str=window.localStorage.getItem(arr);
+        return arr;
+    }
+    document.getElementsByClassName("skin_0").onclick=function(){
+           var top= document.getElementsByClassName("skin_0");
+           top.style.top="75px";
+        } 
+    document.getElementsByClassName("skin_1").onclick=function(){
+        document.getElementsByClassName("skin_1").style.top="75px";
+        var arr=dou.getElementsByClassName("skin_1").style.backgroundcolor;
+        document.getElementById("div1").style.backgroundcolor="arr";
+        setStorage();
+        getStorage(arr);
+    }
+    document.getElementsByClassName("skin_2").onclick=function(){
+        document.getElementsByClassName("skin_2").style.top="75px";
+        var arr=dou.getElementsByClassName("skin_2").style.backgroundcolor;
+        document.getElementById("div1").style.backgroundcolor="arr";
+        setStorage();
+        getStorage(arr);
+    }
+    document.getElementsByClassName("skin_3").onclick=function(){
+        document.getElementsByClassName("skin_3").style.top="75px";
+        var arr=dou.getElementsByClassName("skin_3").style.backgroundcolor;
+        document.getElementById("div1").style.backgroundcolor="arr";
+        setStorage();
+        getStorage(arr);
+    }
+    document.getElementsByClassName("skin_4").onclick=function(){
+        document.getElementsByClassName("skin_4").style.top="75px";
+        var arr=dou.getElementsByClassName("skin_4").style.backgroundcolor;
+        document.getElementById("div1").style.backgroundcolor="arr";
+        setStorage();
+        getStorage(arr);
+    }
+    document.getElementsByClassName("skin_5").onclick=function(){
+        document.getElementsByClassName("skin_5").style.top="75px";
+        var arr=dou.getElementsByClassName("skin_5").style.backgroundcolor;
+        document.getElementById("div1").style.backgroundcolor="arr";
+        setStorage();
+        getStorage(arr);
+    }
+</script>
+</html>
