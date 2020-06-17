@@ -1,0 +1,520 @@
+*{
+    margin: 0px;
+    box-shadow: none;
+}
+@media  only screen and (min-width: 630px) {
+    body{
+        background-color: rgb(221,221,221);
+    }
+    .i1{
+        position: absolute;
+        top: 1960px;left: 0px;
+        width: 100%;
+    }
+    
+    .container{
+        width: 100%;
+        background-color: rgb(221,221,221);
+    }
+    .pc-top{
+        width: 100%;height: 45px;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        background-color:rgb(40,40,40);
+        
+    }
+    .i2{
+        position: absolute;
+        top:11px ;
+        left: 955px;
+    }
+    .p1{
+        font-size: 19px;
+        position: absolute;
+        color: white;
+        top: 12px;
+        left: 1013px;
+    }
+    .p2{
+        font-size: 19px;
+        position: absolute;
+        top: 12px;
+        color: white;
+        left: 1208px;
+    }
+    .p3{
+        font-size: 19px;
+        position: absolute;
+        top: 12px;
+        color: white;
+        left: 1274px;
+    }
+    .p4{
+        font-size: 19px;
+        position: absolute;
+        top: 12px;
+        color: white;
+        left: 1293px;
+    }
+    .daohang{
+        position: absolute;
+        top:45px ;
+        left: 0px;
+        width: 100%;height: 79px;
+        background-color: white;
+    }
+    .i3{
+        position: absolute;
+        top: 14px;
+        left: 115px;
+        width: 179px;height: 51px;
+    }
+    nav{
+        position: absolute;
+        top: 20px;
+        left: 423px;
+        width: 430px;height: 43px;
+        margin-right: 0px;
+        display: inline-block;
+    }
+    .navbar-default{
+        background-color: white;
+        border: 0px;
+        margin-right: 0px;
+    }
+    .nav{
+        font-size: 20px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .navbar{
+        margin: 0px;
+        margin-right: 0px;
+    }
+    .nav li:hover{
+        cursor: pointer;
+        border-bottom: 3px solid rgb(203,84,5);
+        background-color: #fff;
+    }
+    .l1{
+        border-bottom:  solid rgb(203,84,5);
+    }
+    
+    .navbar-default  .navbar-nav li a:hover{
+        color: rgb(203,84,5);
+    }
+    .navbar-default  .navbar-nav .l1 a{
+        border-bottom:  solid rgb(203,84,5);
+        color: rgb(203,84,5);
+    }
+    .l2{
+        position: absolute;
+        left: 60px;
+    }
+    .l3{
+        position: absolute;
+        left: 110px;
+    }
+    .l4{
+        position: absolute;
+        left: 160px;
+    }
+    .zhutu{
+        position: absolute;
+        top: 124px;
+        width: 100%;height: 446px;
+    }
+    .i4{
+        position: absolute;
+        top: 0px;
+        margin: 0px;
+        width: 100%;height: 446px;
+    }
+    
+   .p5{
+       font-size: 48px;
+       position: absolute;
+       top: 80px;
+       left: 189px;
+       color: rgb(224,224,224);
+       font-weight: 200;
+       font-family:  '微软雅黑';
+   }
+   .xian1{
+       position: absolute;
+       width: 321px;height: 1px;
+       background-color:gray;
+       top: 155px;
+       left: 196px;
+   }
+   .p6{
+       position: absolute;
+       font-size: 20px;
+       color:rgb(224,224,224);
+       top: 172px;
+       left: 195px;
+   }
+   .p7{
+       position: absolute;
+       font-size: 20px;
+       color: rgb(224,224,224);
+       left: 195px;
+       top: 212px;
+       margin-bottom: 0px;
+   }
+   .xian2{
+       position: absolute;
+       background-color: gray;
+       height: 1px;width: 405px;
+       left: 196px;
+       top: 246px;
+   }
+   .search{
+       width: 582px;height: 49px;
+       position: absolute;
+       top: 332px;
+       left: 423px;
+       border: 2px solid black;
+       border-radius: 5px;
+   }
+   .you{
+       width: 146px;height: 44px;
+       position: absolute;
+       left: 0px;
+       background-color: rgb(211,211 , 216);
+       border-radius: 5px 0px 0px 5px;
+   }
+   .i5{
+       margin-right: 0px;
+       margin-left: 0px;
+       display: inline-block;
+       position: absolute;
+       top:13px ;
+       left: 27px;
+   }
+   .p8{
+       position: absolute;
+       font-size: 18px;
+       width: 60px;height: 18px;
+       margin-bottom: 0px;
+       left: 64px;
+       top: 12px;
+       color: rgb(83,83,83);
+   }
+   .moren{
+       position: absolute;
+       width: 310px;height: 44px;
+       background-color: rgb(225,225,225);
+       top: 0px;
+       left: 146px;
+       border: 0px;
+       font-size: 18px;
+   }
+   .anniu{
+       position: absolute;
+       width: 122px;height: 44px;
+       border-radius: 0px 5px 5px 0px ;
+       top: 0px;
+       left: 456px;
+       background-color:rgb(203,84,5) ;
+       border: 0px;
+       background-image: url(img/search.png);
+       background-repeat: no-repeat;
+       background-position: center;      
+   }
+   /* 机场接机 */
+   .c1{
+       position: absolute;
+       width: 1200px;height:364px ;
+       top: 600px;
+       left: 170px;
+       border-radius: 2px;
+   }
+   .i6{
+       width: 934px;height: 364px;
+       position: absolute;
+       left: 0px;
+   }
+   .part2{
+       position: absolute;
+       left: 934px;
+       width: 266px;height: 364px;
+       background-color: rgb(20,46,109);
+       border-radius: 0px 3px 3px 0px;
+   }
+   .i7{
+       margin-right: 0px;
+       display: inline-block;
+       position: absolute;
+       top: 82px;left: 89px;
+       width: 94px;height: 92px;
+   }
+   .p9{
+       width: 107px;height: 27px;
+       position: absolute;
+       color: rgb(225,225,225);
+       top: 193px;left: 85px;
+       font-size: 26px;           
+    }
+    .anniu2{
+        position: absolute;
+        width: 179px;height: 52px;
+        border: 1px solid rgb(225,225,225);
+        background-color: rgba(225, 225, 225, 0);
+        border-radius: 10px;
+        font-size: 24px;
+        color: rgb(225, 225, 225);
+        top: 271px;
+        left: 50px;
+    }
+    /* 热门路线 */
+    .wenzi1{
+        position: absolute;
+        width: 207px;height: 69px;
+        top: 995px;left:650px ;
+    }
+    .p10{
+        position: absolute;
+        width: 207px;height: 37px;
+        top: 0px; left: 0px;
+        font-size: 36px;
+        color: black;
+        text-align: center;
+        margin-bottom: 0px;
+    }
+    .p11{
+        position: absolute;
+        top:50px ; left: 0px;
+        width: 207px;height: 32px;
+        text-align: center;
+        font-size: 18px;
+        color: black;
+        margin-bottom: 0px;
+    }
+    .tuzu{
+        width: 1200px;height: 1020px;
+        position: absolute;
+        top: 1101px; left: 170px;
+       
+    }
+    .part-zuo{
+        position: absolute;
+        width: 588px; height: 1020px;
+        top: 0px; left: 0px;
+    }
+    .part-you{
+        position: absolute;
+        top: 0px; left: 592px;
+        width: 608px; height: 1020px;
+    }
+    .i8{
+        position: absolute;
+        top: 0px; left: 0px;
+        width: 588px; height: 385px;
+    }
+    .i9{
+        position: absolute;
+        width: 588px; height: 525px;
+        top: 493px; left: 0px;
+    }
+    .i10{
+        position: absolute;
+        top: 0px; left: 0px;
+        width:608px ;height: 292px;
+    }
+    .i11{
+        position: absolute;
+        top: 296px; left: 0px;
+        width: 608px;height: 355px;
+    }
+    .i12{
+        position: absolute;
+        top:655px ; left: 0px;
+        width: 608px; height: 365px;
+    }
+    .biao1{
+        position: absolute;
+        top: 385px; left: 0px;
+        background-color: rgb(0,0,0);
+        width: 588px; height: 105px;
+    }
+    .biao2{
+        position: absolute;
+        top: 933px; left: 0px;
+        background-color: rgb(0,0,0);
+        width: 588px; height: 87px;               
+    }
+    .biao3{
+        position: absolute;
+        top: 206px;left: 0px;
+        width: 608px;height: 87px;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+    .biao4{
+        position: absolute;
+        top: 563px;left: 0px;
+        width: 608px;height: 87px;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+    .biao5{
+        position: absolute;
+        top: 932px;left: 0px;
+        width: 608px;height: 87px;
+        background-color: rgba(0, 0, 0, 0.5);
+        
+    }
+    span{
+        font-size: 30px;
+    }
+    .p12{
+        position: absolute;
+        top: 21px; left: 39px;
+        width: 395px;height: 21px;
+        font-size: 20px;
+        color: white;
+    }
+    .p13{
+        position: absolute;
+        top: 54px; left: 41px;
+        width: 143px;height: 26px;
+        font-size: 20px;
+        color: white;
+    }
+    .p16{
+        position: absolute;
+        top: 14px;left: 39px;
+        width: 395px;height: 21px;
+        font-size: 20px;
+        color: white;
+    }
+    .p17{
+        position: absolute;
+        top:45px;left: 41px;
+        font-size: 20px;
+        color: white;
+    }
+    .p14{
+        position: absolute;
+        width: 470px;height: 21px;
+        top: 13px;left:34px ;
+        font-size: 20px;
+        color: white;
+        margin-bottom: 0px;
+    }
+    .p15{
+        position: absolute;
+        top: 46px;left: 36px;
+        color: white;
+        font-size: 20px;
+    }
+    /* 使命与愿景 */
+    .wenzi2{
+        position: absolute;
+        top: 2169px;left:650px;
+        width: 224px;height: 81px;
+    }
+    .w1{
+        position: absolute;
+        top: 0px;left: 0px;
+        width: 224px;height: 35px;
+        font-size: 36px;
+        text-align: center;
+        color: black;
+    }
+    .w2{
+        position: absolute;
+        top: 65px;left: 0px;
+        width: 224px;height: 15px;
+        text-align: center;
+        font-size: 16px;
+        color: black;
+        margin-bottom: 0px;
+    }
+    .tuzu2{
+        position: absolute;
+        top: 2290px;left: 170px;
+        width: 1200px;height: 1230px;
+    }
+    .t1{
+        position: absolute;
+        top: 0px; left: 0px;
+        width: 495px;height: 350px;
+    }
+    .t2{
+        position: absolute;
+        top: 0px;left: 495px;
+        width: 705px;height: 350px;
+        background-color: rgb(28,80,128);
+    }
+    .t2-1{
+        position: absolute;
+        top: 89px;left: 258px;
+        width: 182px;height: 25px;
+        font-size: 26px;color: white;
+    }
+    .t2-2{
+        position: absolute;
+        top: 158px;left: 95px;
+        font-size: 16px;color: white;
+        width: 516px;height: 124px;
+        line-height: 30px;
+    }
+    .t3{
+        position: absolute;
+        top: 354px;left: 0px;
+        width:100% ;height: 473px;
+    }
+    .xunzhang{
+        position: absolute;
+        top: 830px;left: 0px;
+        width: 1200px;height: 398px;
+        background-color: rgb(28,80,128);
+    }
+    .part-x1{
+        position: absolute;
+        top: 46px;left: 122px;
+        width: 282px;height: 281px;
+    }
+    .part-x2{
+        position: absolute;
+        top: 46px; left: 461px;
+        width: 282px;height: 281px;
+    }
+    .part-x3{
+        position: absolute;
+        top: 46px; left: 792px;
+        width: 282px;height: 281px;
+    }
+    .kuang{
+        position: absolute;
+        top: 0px;left: 46px;
+        width: 188px;height: 187px;
+    }
+    .biaozi{
+        position: absolute;
+        width: 288px;height: 50px;
+        font-size: 16px;color: white;
+        text-align: center;
+        font-family: "微软雅黑";
+        top: 230px;
+    }
+    .x1-1{
+        position: absolute;
+        top: 49px;left: 109px;
+    }
+    .x2-1{
+        position: absolute;
+        top: 42px; left: 117px;
+    }
+    .x3-1{
+        position: absolute;
+        top: 49px; left: 115px;
+    }
+    .xzm{
+        position: absolute;
+        top: 126px; left: 103px;
+        font-size: 20px;
+        width: 81px; height: 20px;
+        color: white;
+    }
+}
